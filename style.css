@@ -33,6 +33,16 @@ h1 {
   height: 60px;
 }
 
+.navbar-nav {
+  padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+}
+.navbar-collapse {
+  padding-left: 10%;
+  align-items: right;
+}
 .navbar-brand {
   color: rgba(38, 41, 41, 0.667);
   margin-left: 5px;
@@ -46,12 +56,23 @@ h1 {
 }
 
 .auth-image {
-  width: 160px;
+  width: 180px;
   height: auto;
   margin-top: 10px;
   margin-left: 20px;
-  float: center;
   border-radius: 50%;
+}
+
+.rowskills {
+  padding-left: 250px;
+  margin-right: 20px;
+}
+.skillimage {
+  width: 60px;
+  height: auto;
+  margin-top: 10px;
+  margin-left: 10px;
+  border-radius: 0%;
 }
 
 .caption {
@@ -118,10 +139,10 @@ ul {
 .main {
   float: left;
   width: 100%;
-  max-width: 860px;
+  max-width: 960px;
   padding: 30px;
   margin: 0 0 40px;
-  border: 1px solid #ddd;
+  border: 7px solid darkgray;
 }
 
 .container-contact {
